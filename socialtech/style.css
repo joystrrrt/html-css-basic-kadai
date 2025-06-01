@@ -502,7 +502,7 @@ footer {
   border: none;
 }
 
-#nav-sp nav ui {
+#nav-sp nav ul {
   padding-left: 0;
 }
 
@@ -516,7 +516,7 @@ footer {
 }
 
 /* ナビゲーションのリンクの装飾設定 */
-#nav sp nav a {
+#nav-sp nav a {
   display: block;
   color: #ffffff;
 }
@@ -530,8 +530,18 @@ footer {
   margin: 0 20px 0 20px;
   height: 44px;
   font-size: 16px;
-  background-image: url("images/arrow.ong");
+  background-image: url("images/arrow.png");
   background-repeat: no-repeat;
   background-position: right top;
+}
+
+#sns {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+#sns > a {
+  margin-right: 30px;
 }
 }
